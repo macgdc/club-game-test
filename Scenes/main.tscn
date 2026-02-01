@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://wcn20us47vg1"]
+
+[ext_resource type="Script" uid="uid://dil5int4ar5sq" path="res://Scripts/main.gd" id="1_jjgbg"]
+
+[node name="Main" type="Node" unique_id=1012145446]
+script = ExtResource("1_jjgbg")
+
+[node name="World3D" type="Node3D" parent="." unique_id=731907458]
+
+[node name="GUI" type="Control" parent="." unique_id=800719541]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
